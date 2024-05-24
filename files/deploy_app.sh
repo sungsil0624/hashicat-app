@@ -73,12 +73,12 @@ canvas {
       <!-- END -->
     </div>
     <script>
-      (function() {
+    (function() {
   const canvas = document.getElementById('fireworksCanvas');
   const ctx = canvas.getContext('2d');
   let fireworks = [];
   let particles = [];
-  const numberOfLaunches = 20; // Adjust the number of fireworks launches
+  const numberOfLaunches = 10; // Adjust the number of fireworks launches
 
   function resizeCanvas() {
     canvas.width = window.innerWidth;
@@ -228,7 +228,6 @@ canvas {
   setInterval(launchFireworks, 2000); // Launch fireworks every 2 seconds
   loop();
 })();
-
     </script>
   </body>
 
