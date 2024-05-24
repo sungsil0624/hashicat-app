@@ -72,7 +72,7 @@ canvas {
       <p>Welcome to Team DoTheZ!</p>
       <!-- END -->
     </div>
-    <script src="script.js">
+    <script>
       (function() {
   const canvas = document.getElementById('fireworksCanvas');
   const ctx = canvas.getContext('2d');
